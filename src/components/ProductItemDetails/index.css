@@ -1,0 +1,83 @@
+.products-loader-cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.pro-details-cont {
+  width: 70%;
+  display: flex;
+
+  padding: 30px;
+}
+.pro-main-image {
+  width: 320px;
+  height: 500px;
+  margin-right: 25px;
+}
+.pro-details-main-cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.pro-main-image-desc {
+  display: flex;
+  flex-direction: column;
+}
+.rat-review-cont {
+  display: flex;
+}
+hr {
+  border: 1px solid blue;
+  width: 450px;
+  padding: 0px;
+  text-align: start;
+}
+.rat-cont {
+  display: flex;
+  background-color: blue;
+  color: white;
+  align-items: center;
+  width: 75px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.simliar-list-cont {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.add-sub-cont {
+  display: flex;
+}
+p {
+  margin: 4px;
+}
+button {
+  margin: 3px;
+}
+.addtocartBtn {
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 6px;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+}
+.cont-shop-btn {
+  background-color: blue;
+}
+.fail-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
